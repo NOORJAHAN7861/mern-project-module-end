@@ -7,7 +7,7 @@ dotenv.config();
 const authRoutes = require('./app/routes/authRoutes');
 const customerRoutes = require('./app/routes/customerRoutes');
 const caseRoutes = require('./app/routes/caseRoutes');
-
+const profileRoutes = require('./app/routes/profileRoutes');
 const errorHandler = require('./app/middleware/errorHandler');
 
 const app = express();
